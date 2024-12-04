@@ -186,6 +186,12 @@ nav{
     width: 100%;
 }
 
+.b_txt{
+    font-size: 30px;
+    line-height: 40.98px;
+
+}
+
 .project_btn{
     display: block;
     height: 153px;
@@ -207,19 +213,24 @@ nav{
 
 .blocks_black{
     margin-top: 34px;
-}
+    display: flex;
+    flex-wrap: wrap;
 
-.section_b_pict{
-    margin-bottom: 12px;
 }
 
 .block_black{
-    margin-bottom: 60px;
+    width: calc(50%-5px);
+    height: 447px;
+}
+
+.section_b_pict{
+    height: 390px;
 }
 
 .block_black:last-child{
     margin-bottom: 0;
 }
+
 .big_bed{
     position: relative;
     height: 717px;
@@ -236,9 +247,11 @@ nav{
     height: 82px;
     width: 443px;
 }
+
 .contacts{
     padding-bottom: 150px;
 }
+
 .contact-txt{
     position: relative;
     margin-bottom: 30px;
@@ -257,6 +270,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .mail{
     margin-top: 30px;
     border-bottom: 2px solid #121212;
@@ -264,6 +278,7 @@ nav{
     color: #121212;
     opacity: 0.5;
 }
+
 .footer_wrapier{
     text-align: center;
 }
@@ -282,6 +297,7 @@ nav{
 .footer:last-child{
     margin-right: 0;
 }
+
 .footer:hover{
     opacity: 0.5;
     border-bottom: 1px solid gray;
