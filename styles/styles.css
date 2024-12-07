@@ -186,11 +186,7 @@ nav{
     width: 100%;
 }
 
-.b_txt{
-    font-size: 30px;
-    line-height: 40.98px;
 
-}
 
 .project_btn{
     display: block;
@@ -215,16 +211,25 @@ nav{
     margin-top: 34px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 .block_black{
-    width: calc(50%-5px);
+    width: calc(50% - 5px);
     height: 447px;
+    margin-bottom: 85px;
+}
+
+.b_txt{
+    font-size: 30px;
+    line-height: 40.98px;
 }
 
 .section_b_pict{
     height: 390px;
+    width: 100%;
+    margin-bottom: 25px;
 }
 
 .block_black:last-child{
@@ -234,7 +239,7 @@ nav{
 .big_bed{
     position: relative;
     height: 717px;
-    background-image: url(/resurces/big_bed.png);
+    background-image: url(../resurces/big_bed.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -350,8 +355,18 @@ nav{
         font-size: 25px;
         line-height: 35px;
     }
-
-
+    .block_black{
+        height: 364px;
+        margin-bottom: 80px;
+    }
+    .section_b_pict{
+        height: 315px;
+        margin-bottom: 15px;
+    }
+    .b_txt{
+        font-size: 25px;
+        line-height: 35px;
+    }
 }
 
 @media (max-width:767px){ 
