@@ -257,6 +257,11 @@ nav{
     background-color:black;
     color: #AD1818;
 }
+.feedbacks{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 80px;
+}
 
 .feedbacks_h{
     margin-bottom: 30px;
@@ -270,12 +275,10 @@ nav{
 
 .feedback_col{
     width: calc(50% - 25px);
-    margin-bottom: 80px;
 }
 
 .feedback_h{
-    font-size: 45px;
-    height: 61px;
+    font-size: 40px;
     line-height: 61.47px;
     margin-bottom: 14px;
 }
@@ -285,7 +288,7 @@ nav{
     line-height: 30.05px;
 }
 
-.feedback_txt_big{
+.feedback_big{
     width: 861px;
 }
 
@@ -425,6 +428,22 @@ nav{
         font-size: 20px;
         line-height: 27px;
     }
+    .feedback_col{
+        width: calc(50% - 5px);
+    }
+
+    .feedback_h{
+        font-size: 35px;
+        line-height: 47.81px;
+        margin-bottom: 25px;
+    }
+    .feedback_txt{
+        font-size: 20px;
+        line-height: 27px; 
+    }
+    .feedback_big{
+        width: 695px;
+    }
 }
 
 @media (max-width:767px){ 
@@ -519,5 +538,24 @@ nav{
         font-size: 22px;
         line-height: 100px;
     }
-    
+
+    .feedback_col{
+        width: 100%
+    }
+    .feedback_row{
+        row-gap: 80px;
+    }
+    .feedback_h{
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .feedback_txt{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .feedback_big{
+        width: 100%;
+    }
+
 }
