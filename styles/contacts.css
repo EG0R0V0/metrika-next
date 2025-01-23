@@ -1,0 +1,93 @@
+
+.contacts{
+    padding-bottom: 150px;
+}
+.contact__inform{
+    display: flex;
+    gap: 105px;
+}
+.contact{
+    display: block;
+}
+
+.contact-txt{
+    margin-bottom: 75px;
+}
+.tel{
+    position: relative;
+}
+
+.tel::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: -50px;
+    background-image: url(/resurces/mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.mail{
+    position: relative;
+    border-bottom: 2px solid #121212;
+    color: #121212;
+    opacity: 0.5;
+}
+.mail::before{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    left: 0;
+    top: -50px;
+    background-image: url(/resurces/mail.png);
+    background-repeat: no-repeat;
+}
+@media (max-width:1199px){
+    .contact__inform{
+        gap: 115px;
+    }
+    .tel{
+        font-size: 40px;
+    }
+    .mail{
+        font-size: 40px;
+    }
+
+}
+@media (max-width:767px){
+    .contacts{
+        padding-bottom: 80px;
+    }
+    .contact__inform{
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contact-txt{
+        font-size: 14px;
+    }
+    .tel{
+        font-size: 35px;
+    }
+    .tel::before{
+        top: -40;
+        width: 18px;
+        height: 18px;
+    }
+    .mail{
+        font-size: 35px;
+        border-bottom: 0;
+        opacity: 1;
+    }
+    .mail::before{
+        top: -40px;
+        width: 18px;
+        height: 18px;  
+        background-image: url(/resurces/mail1.png);  
+    }
+}

@@ -1,0 +1,35 @@
+header{
+    padding-top: 33px;
+}
+
+.logo{
+    position: absolute;
+    height: 22px;
+    width: 127px;
+}
+
+/* nav{
+    position: relative;
+    float: right;
+} */
+
+.nav-link{
+    height: 25px;
+    line-height: 25px;
+    margin-right: 60px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 18px;
+    color: #121212;;
+
+}
+
+.nav-link:hover{
+    opacity: 0.5;
+    border-bottom: 1px solid #000;
+}
+
+
+.nav-link:last-child{
+    margin-right: 0;
+}
