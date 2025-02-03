@@ -419,6 +419,9 @@ h1, h2, h3{
         font-size: 22px;
         line-height: 100px;
     }
+    .block_black:last-child{
+        margin-bottom: 40px;
+    }
 
     .feedback_col{
         width: 100%
