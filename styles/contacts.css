@@ -48,6 +48,9 @@
     background-image: url(../resurces/mail.png);
     background-repeat: no-repeat;
 }
+.contact__link{
+    text-decoration: none;
+}
 @media (max-width:1199px){
     .contact__inform{
         gap: 115px;
