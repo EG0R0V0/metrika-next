@@ -111,7 +111,7 @@ header{
     }
     .burger-btn{
         display: block;
-        background-image: url(/resurces/burger_btn.png);
+        background-image: url(../resurces/burger_btn.png);
         background-repeat: no-repeat;
         background-position:center ;
         width: 50px;
@@ -123,7 +123,7 @@ header{
         height: 21px;
         width: 21px;
         background-size:cover;
-        background-image: url(/resurces/popup_close.png);
+        background-image: url(../resurces/popup_close.png);
 
     }
 
