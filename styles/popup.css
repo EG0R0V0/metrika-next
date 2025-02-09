@@ -36,6 +36,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     opacity: 0;
     visibility: hidden;
+    transition: all 0.4s ease;
 
 }
 .popup_open{
@@ -82,7 +83,6 @@
     font-size: 25px;
     border: none;
     border-bottom: 1px solid #000000;
-
     color: #000000;
     outline: none;   
 }
@@ -99,7 +99,7 @@ button.popup__btn{
 
 @media (max-width:1199px){ 
     .popup{
-        padding: 90px;
+        padding: 10px 90px;
     }
 }
 
@@ -111,6 +111,9 @@ button.popup__btn{
         width: 100%;
         height: 611px;
     }
+    .popup__order-wrap{
+        margin: 80px 24px 80px 16px;
+    }
     .popup__close-btn{
         width: 30px;
         height: 30px;
@@ -119,5 +122,24 @@ button.popup__btn{
     }
     .popup__img{
         padding:6px ;
+    }
+    .popup__input-wrap{
+        row-gap: 40px;
+        margin-bottom: 60px;
+    }
+    .popup__h{
+        line-height: 35px;
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+    
+    .popup__p{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 60px;
+    }
+    .popup__input{
+        line-height: 25px;
+        font-size: 18px;
     }
 }

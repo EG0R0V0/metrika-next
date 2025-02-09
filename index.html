@@ -16,22 +16,50 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <!-- <header>
+    <header class="header">
       <div class="container">
-        <img
-          class="logo"
-          src="/resurces/nav-logo.png"
-          alt="Логотип студии метрика"
-
-        />
-        <nav class="nav">
-          <a href="#about_us" class="nav-link nav-link_active">О НАС</a>
-          <a href="#projects" class="nav-link">ПРОЕКТЫ</a>
-          <a href="#services" class="nav-link">УСЛУГИ</a>
-          <a href="#contants" class="nav-link">КОНТАКТЫ</a>
-        </nav>
+        <div class="header-inner">
+          <img
+            class="logo"
+            src="/resurces/nav-logo.png"
+            alt="Логотип студии метрика"
+          />
+          <nav class="nav">
+            <a href="#about_us" class="nav__link">О НАС</a>
+            <a href="#projects" class="nav__link">ПРОЕКТЫ</a>
+            <a href="#services" class="nav__link">УСЛУГИ</a>
+            <a href="#contants" class="nav__link">КОНТАКТЫ</a>
+          </nav>
+          <div class="js-burger-btn burger-btn"></div>
+        </div>
       </div>
-    </header> -->
+    </header>
+    <div class="js-burger burger">
+      <div class="js-burger__content burger__content">
+        <div class="burger__content-wrapp">
+          <img
+            class="burger__logo"
+            src="/resurces/nav-logo.png"
+            alt="Логотип студии метрика"
+          />
+          <nav class="burger-nav">
+            <a href="#about_us" class="burger-nav__link">О НАС</a>
+            <a href="#projects" class="burger-nav__link">ПРОЕКТЫ</a>
+            <a href="#services" class="burger-nav__link">УСЛУГИ</a>
+            <a href="#contants" class="burger-nav__link">КОНТАКТЫ</a>
+          </nav>
+          <div class="burger__contacts">
+            <p class="burger__txt">для связи:</p>
+            <a class="contact__link" href="tel:+7 996 000-05-50"
+              ><h3 class="burger-h">+7 996 000-05-50</h3></a
+            >
+            <a class="contact__link" href="mailto:hihihi.ru1a@mail.ru"
+              ><h3 class="burger-h">hihihi.ru1@mail.ru</h3></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
       <section class="about_interior">
         <div class="container">
@@ -328,7 +356,7 @@
     <footer class="footer section_black">
       <div class="container">
         <div class="footer__inner">
-          <nav class="nav">
+          <nav class="nav__footer">
             <a href="#about_us" class="footer__nav-link">О НАС</a>
             <a href="#projects" class="footer__nav-link">ПРОЕКТЫ</a>
             <a href="#services" class="footer__nav-link">УСЛУГИ</a>
@@ -341,6 +369,7 @@
       </div>
     </footer>
 
+    <script src="burger.js"></script>
     <script src="gallery.js"></script>
     <script src="popup.js"></script>
   </body>
